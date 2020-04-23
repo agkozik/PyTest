@@ -1,6 +1,6 @@
 from pytest import mark
 
-
+@mark.tv
 @mark.parametrize('tv_brand', [
     ('Samsung'),
     ('Sony'),
