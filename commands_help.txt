@@ -1,0 +1,13 @@
+
+pip list
+pytest -h список команд (посмотреть свои ENV)
+pytest --env qa -v    или pytest --env=qa     или pytest --env="qa"
+pytest --env dev -m entertainment -v -rs
+pytest --env dev -m entertainment -v -rxXs
+pytest -m tv -v -s      # -s это с выводом в отчет: print('sfgsfg')
+
+
+
+
+pytest --html="results.html"
+pytest --junitxml="results.xml"
